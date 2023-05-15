@@ -1,0 +1,47 @@
+.createOrderFlowWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 10%;
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.createOrderFlowWrapper .barbersTitleWrapper {
+  width: 100%;
+  text-align: left;
+}
+
+.createOrderFlowWrapper .barbersTitleWrapper h4 {
+  color: #fff;
+  margin: 0;
+}
+
+.createOrderFlowWrapper .allBarbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  overflow-x: scroll;
+}
+
+.errorMessageWrapper {
+  padding: 0 10%;
+}
+
+.errorMessageWrapper h4 {
+  color: rgba(255, 62, 62, 0.623);
+}
+/*# sourceMappingURL=BarbersPage.css.map */

@@ -1,0 +1,34 @@
+.firstpageWrapper {
+    width: 100%;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    animation: bg-pan-top 8s both;
+}
+
+.header {}
+
+.logo {
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    margin: auto;
+
+}
+
+@keyframes logos {
+
+    100% {
+        top: 30%;
+    }
+}
+
+.bg-pan-left {}
+
+.tran {
+    animation: logos 1s alternate;
+    animation-fill-mode: forwards
+}

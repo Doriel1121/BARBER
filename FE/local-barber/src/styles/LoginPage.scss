@@ -1,0 +1,80 @@
+@mixin centerDisplay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginWrapper {
+    // padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    // margin-top: 50px;
+    // background: url('../resources/Meteor.svg');
+    top: 42%;
+    transform: translateY(-100%);
+
+    .header {
+        @include centerDisplay;
+    }
+
+    .input {
+        // border: 1px solid #d3d3d3;
+        border-radius: 6px;
+    }
+
+    .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+        color: #fff;
+    }
+
+    .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+        color: #fff;
+    }
+
+    // .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+    //     .Mui-focused {
+
+    //         color: red;
+    //     }
+    // }
+
+    .css-xqr4nw-MuiInputBase-root-MuiInput-root:before {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    // .css-1ptx2yq-MuiInputBase-root-MuiInput-root:after {
+    //     border-bottom: 2px solid #FFAD34;
+    // }
+
+    .css-18nu0jg-MuiFormLabel-root-MuiInputLabel-root {
+        color: #fff;
+    }
+
+    // .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+    //     color: #FFAD34;
+    // }
+
+    .formWrapper {
+        width: 90%;
+        @include centerDisplay;
+
+        .formElement {
+            text-align: center;
+        }
+
+        .signInbtnWrapper {
+            text-align: right;
+        }
+
+        .formButton {
+            color: white;
+            background-color: #FFAD34;
+            border-radius: 20px;
+            width: 50%;
+            margin: 20px 0 0 0;
+        }
+    }
+}

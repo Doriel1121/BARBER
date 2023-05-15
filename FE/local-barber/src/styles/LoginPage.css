@@ -1,0 +1,82 @@
+.loginWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  width: 100%;
+  top: 42%;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+}
+
+.loginWrapper .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.loginWrapper .input {
+  border-radius: 6px;
+}
+
+.loginWrapper .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+  color: #fff;
+}
+
+.loginWrapper .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+  color: #fff;
+}
+
+.loginWrapper .css-xqr4nw-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: 1px solid #ffffff;
+}
+
+.loginWrapper .css-18nu0jg-MuiFormLabel-root-MuiInputLabel-root {
+  color: #fff;
+}
+
+.loginWrapper .formWrapper {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.loginWrapper .formWrapper .formElement {
+  text-align: center;
+}
+
+.loginWrapper .formWrapper .signInbtnWrapper {
+  text-align: right;
+}
+
+.loginWrapper .formWrapper .formButton {
+  color: white;
+  background-color: #FFAD34;
+  border-radius: 20px;
+  width: 50%;
+  margin: 20px 0 0 0;
+}
+/*# sourceMappingURL=LoginPage.css.map */

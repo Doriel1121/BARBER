@@ -1,0 +1,123 @@
+.pickerWrapper {
+  width: 80%;
+}
+
+.allTimes {
+  row-gap: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.timeCard {
+  border-radius: 10px;
+  height: 40px;
+  padding: 0 10px;
+  width: 90%;
+  -webkit-box-shadow: 1px 0px 11px 1px #efefef;
+          box-shadow: 1px 0px 11px 1px #efefef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.timeCard .makeOrderBtn {
+  width: 50%;
+  text-align: end;
+}
+
+.timeCard .makeOrderBtn button {
+  background: #ffca51ad;
+  border: transparent;
+  border-radius: 6px;
+  height: 26px;
+  width: 50%;
+}
+
+.timeCard .hourOfOrder {
+  width: 50%;
+}
+
+.scheduleWrapper .rdp {
+  background: #35383f;
+  border-radius: 15px;
+  padding: 10px;
+  color: #fff;
+  margin: 0;
+}
+
+.scheduleWrapper .rdp .rdp-day_selected {
+  background-color: #FFAD34;
+}
+
+.scheduleWrapper .optionsWrapper .optionsTitle {
+  color: #fff;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.scheduleWrapper .optionsWrapper .timesOptions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: scroll;
+  gap: 10px;
+  margin-top: 10px;
+  width: 84vw;
+}
+
+.scheduleWrapper .optionsWrapper .timesOptions .timeOption {
+  border: 1px solid #FFAD34;
+  border-radius: 15px;
+  width: 100px;
+  height: 35px;
+  padding: 0 6px;
+  line-height: 35px;
+}
+
+.scheduleWrapper .optionsWrapper .timesOptions .timeOption .MuiButton-label {
+  color: #fff;
+}
+
+.modal .box .css-ix1f03-MuiTypography-root {
+  margin-top: 0px;
+}
+
+.modalFooter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.modalFooter .MuiButton-root {
+  color: #FFAD34 !important;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=Schedule.css.map */

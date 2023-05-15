@@ -1,0 +1,99 @@
+.aboutUsWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.aboutUsWrapper .imgWrapper img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.aboutUsWrapper .aboutPageContent {
+  height: 100%;
+  padding: 0 5% 5% 5%;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20%;
+}
+
+.aboutUsWrapper .aboutPageContent h3 {
+  margin-top: 0;
+  color: #FFAD34;
+}
+
+.aboutUsWrapper .aboutPageContent article {
+  font-size: 14px;
+}
+
+.aboutUsWrapper .aboutPageContent .subContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutUsWrapper .aboutPageContent .subContent .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutUsWrapper .aboutPageContent .subContent .info svg {
+  color: #FFAD34;
+}
+
+.aboutUsWrapper .aboutPageContent .subContent .info span {
+  font-size: 12px;
+  gap: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+  text-align: center;
+}
+
+.aboutUsWrapper .aboutPageContent .subContent .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=about.css.map */

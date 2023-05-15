@@ -1,0 +1,259 @@
+@-webkit-keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes heartbeat {
+    from {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    10% {
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    17% {
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    33% {
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    45% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+}
+
+@-webkit-keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-expand {
+    0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+
+.optionPageWrapper {
+    height: 100%;
+    min-height: 60vh;
+
+    .restOfHomepage {
+        padding: 1% 5%;
+        display: flex;
+        flex-direction: column;
+        height: 93%;
+        justify-content: space-between;
+
+
+
+        .welcomeMessage {
+            text-align: left;
+
+            h2 {
+                margin: 0;
+
+            }
+
+
+            .tracking-in-expand {
+                -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+                color: #fff;
+
+                b {
+                    color: #ffc268;
+                }
+            }
+        }
+
+        .latestMessages {
+            margin-top: 10px;
+            border-radius: 18px;
+            padding: 5% 10%;
+            background-image: url('../../public/messages.svg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100px;
+            height: 18vh;
+            max-height: 25vh;
+
+            h3 {
+                margin: 0;
+                color: #fff;
+                margin-bottom: 10px;
+                font-size: 20px;
+            }
+
+            .desc {
+                color: #fff;
+                font-size: 14px;
+            }
+
+            .subTitle {
+                color: #fff;
+                font-size: 10px;
+            }
+        }
+
+        .OptionsSection {
+            h4 {
+                color: #fff;
+            }
+
+            .options {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 20px;
+
+                .option {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 2px;
+
+                    span {
+                        color: white;
+                        font-size: 12px;
+                    }
+
+                    .card {
+                        background-color: #33291c;
+                        border-radius: 50%;
+                        width: 50px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        svg,
+                        img {
+                            color: #FFAD34;
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .gallery {
+            margin-top: 20px;
+        }
+
+        .callToAction {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .heartbeat {
+                -webkit-animation: heartbeat 3s ease-in-out infinite both;
+                animation: heartbeat 3s ease-in-out infinite both;
+                --hover-shadows: 16px 16px 33px #121212,
+                    -16px -16px 33px #303030;
+                --accent: #FFAD34;
+                font-weight: bold;
+                letter-spacing: 0.1em;
+                border: none;
+                border-radius: 1.1em;
+                background-color: #212121;
+                color: white;
+                padding: 1em 2em;
+                transition: box-shadow ease-in-out 0.3s,
+                    background-color ease-in-out 0.1s,
+                    letter-spacing ease-in-out 0.1s,
+                    transform ease-in-out 0.1s;
+                box-shadow: 2px 3px 10px #ffad34, -3px -3px 10px #33291c;
+                width: 50%;
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+
+            .heartbeat:active {
+                box-shadow: var(--hover-shadows),
+                    var(--accent) 0px 0px 30px 5px;
+                background-color: var(--accent);
+                transform: scale(0.95);
+            }
+        }
+    }
+}

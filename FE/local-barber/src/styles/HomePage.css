@@ -1,0 +1,273 @@
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+    transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+    transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.optionPageWrapper {
+  height: 100%;
+  min-height: 60vh;
+}
+
+.optionPageWrapper .restOfHomepage {
+  padding: 1% 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 93%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.optionPageWrapper .restOfHomepage .welcomeMessage {
+  text-align: left;
+}
+
+.optionPageWrapper .restOfHomepage .welcomeMessage h2 {
+  margin: 0;
+}
+
+.optionPageWrapper .restOfHomepage .welcomeMessage .tracking-in-expand {
+  -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  color: #fff;
+}
+
+.optionPageWrapper .restOfHomepage .welcomeMessage .tracking-in-expand b {
+  color: #ffc268;
+}
+
+.optionPageWrapper .restOfHomepage .latestMessages {
+  margin-top: 10px;
+  border-radius: 18px;
+  padding: 5% 10%;
+  background-image: url("../../public/messages.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100px;
+  height: 18vh;
+  max-height: 25vh;
+}
+
+.optionPageWrapper .restOfHomepage .latestMessages h3 {
+  margin: 0;
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.optionPageWrapper .restOfHomepage .latestMessages .desc {
+  color: #fff;
+  font-size: 14px;
+}
+
+.optionPageWrapper .restOfHomepage .latestMessages .subTitle {
+  color: #fff;
+  font-size: 10px;
+}
+
+.optionPageWrapper .restOfHomepage .OptionsSection h4 {
+  color: #fff;
+}
+
+.optionPageWrapper .restOfHomepage .OptionsSection .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+.optionPageWrapper .restOfHomepage .OptionsSection .options .option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2px;
+}
+
+.optionPageWrapper .restOfHomepage .OptionsSection .options .option span {
+  color: white;
+  font-size: 12px;
+}
+
+.optionPageWrapper .restOfHomepage .OptionsSection .options .option .card {
+  background-color: #33291c;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.optionPageWrapper .restOfHomepage .OptionsSection .options .option .card svg,
+.optionPageWrapper .restOfHomepage .OptionsSection .options .option .card img {
+  color: #FFAD34;
+  width: 30px;
+  height: 30px;
+}
+
+.optionPageWrapper .restOfHomepage .gallery {
+  margin-top: 20px;
+}
+
+.optionPageWrapper .restOfHomepage .callToAction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.optionPageWrapper .restOfHomepage .callToAction .heartbeat {
+  -webkit-animation: heartbeat 3s ease-in-out infinite both;
+  animation: heartbeat 3s ease-in-out infinite both;
+  --hover-shadows: 16px 16px 33px #121212,
+                    -16px -16px 33px #303030;
+  --accent: #FFAD34;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  border: none;
+  border-radius: 1.1em;
+  background-color: #212121;
+  color: white;
+  padding: 1em 2em;
+  -webkit-transition: background-color ease-in-out 0.1s, letter-spacing ease-in-out 0.1s, -webkit-box-shadow ease-in-out 0.3s, -webkit-transform ease-in-out 0.1s;
+  transition: background-color ease-in-out 0.1s, letter-spacing ease-in-out 0.1s, -webkit-box-shadow ease-in-out 0.3s, -webkit-transform ease-in-out 0.1s;
+  transition: box-shadow ease-in-out 0.3s, background-color ease-in-out 0.1s, letter-spacing ease-in-out 0.1s, transform ease-in-out 0.1s;
+  transition: box-shadow ease-in-out 0.3s, background-color ease-in-out 0.1s, letter-spacing ease-in-out 0.1s, transform ease-in-out 0.1s, -webkit-box-shadow ease-in-out 0.3s, -webkit-transform ease-in-out 0.1s;
+  -webkit-box-shadow: 2px 3px 10px #ffad34, -3px -3px 10px #33291c;
+          box-shadow: 2px 3px 10px #ffad34, -3px -3px 10px #33291c;
+  width: 50%;
+}
+
+.optionPageWrapper .restOfHomepage .callToAction .heartbeat a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.optionPageWrapper .restOfHomepage .callToAction .heartbeat:active {
+  -webkit-box-shadow: var(--hover-shadows), var(--accent) 0px 0px 30px 5px;
+          box-shadow: var(--hover-shadows), var(--accent) 0px 0px 30px 5px;
+  background-color: var(--accent);
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+/*# sourceMappingURL=HomePage.css.map */
